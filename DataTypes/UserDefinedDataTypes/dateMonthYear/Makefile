@@ -12,3 +12,4 @@ dateMonthYear.o: dateMonthYear.cpp
 clean:
 	rm -rf *o dateMonthYear
 
+

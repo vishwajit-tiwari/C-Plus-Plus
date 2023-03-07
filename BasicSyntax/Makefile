@@ -12,3 +12,4 @@ basicSyntax.o:
 clean:
 	rm -rf *.o basicSyntax 
 
+
