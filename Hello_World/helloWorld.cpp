@@ -1,6 +1,6 @@
 /**
  * @file helloWorld.cpp
- * @author your name (you@domain.com)
+ * @author Vishwajit Tiwari (https://github.com/vishwajit-tiwari)
  * @brief My First Program in C++ 
  * @version 0.1
  * @date 2022-09-06
