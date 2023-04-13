@@ -2,6 +2,7 @@
  * @file classDistructor
  * @author vishwajit-tiwari (https://linkedin.com/in/vishwajit-tiwari)
  * @brief This program will help you understand the concept of distructor and scope-resolution.
+ * Distructor is usefull in releasing resources (memory etc....) before terminating program.
  * @version 0.1
  * @date 06-04-2023
  * @copyright Copyright (c) 2023
@@ -17,7 +18,8 @@ public:
     void setLength(double len);
     double getLength(void);
 
-    Line();                     //class-constructor
+    Line();                     //constructor -> constructor is same as name of the class.
+    ~Line();                    //Distructor -> distructor is also same as name of the class but with negation sign.
 
 private:
     double length;
@@ -28,6 +30,12 @@ private:
 Line :: Line(void) {
     cout<<"Object is being created"<<endl;
 }
+
+/*************************Class: Distructor*******************/
+Line:: ~Line(void) {
+    cout<<"Object is being deleted"<<endl;
+}
+
 
 /*************************setLength function******************/
 void Line :: setLength(double len) {
