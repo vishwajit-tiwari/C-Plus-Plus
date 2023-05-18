@@ -8,6 +8,7 @@
 */
 
 #include<iostream>
+#define MAX_SIZE 10
 
 using namespace std;
 
@@ -19,7 +20,7 @@ class stack {
     public:
     int top;
     int size;
-    int data[10];
+    int data[MAX_SIZE];
     stack() {
         top = -1;
         size = sizeof(data)/sizeof(int);
